@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AMsZaure&#39;s Blog</title>
+  
+  
+  <link href="https://xzhou-amszaure.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://xzhou-amszaure.github.io/"/>
+  <updated>2022-06-06T13:56:38.723Z</updated>
+  <id>https://xzhou-amszaure.github.io/</id>
+  
+  <author>
+    <name>AMsZaure</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>second post for testing</title>
+    <link href="https://xzhou-amszaure.github.io/2022/06/06/secondpost/"/>
+    <id>https://xzhou-amszaure.github.io/2022/06/06/secondpost/</id>
+    <published>2022-06-06T13:40:53.000Z</published>
+    <updated>2022-06-06T13:56:38.723Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Some-Thoughts&quot;&gt;&lt;a href=&quot;#Some-Thoughts&quot; class=&quot;headerlink&quot; title=&quot;Some Thoughts&quot;&gt;&lt;/a&gt;Some Thoughts&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;The best way to</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About this blog</title>
+    <link href="https://xzhou-amszaure.github.io/2022/06/06/firstnote/"/>
+    <id>https://xzhou-amszaure.github.io/2022/06/06/firstnote/</id>
+    <published>2022-06-06T07:27:31.000Z</published>
+    <updated>2022-06-06T15:42:34.256Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;When？&quot;&gt;&lt;a href=&quot;#When？&quot; class=&quot;headerlink&quot; title=&quot;When？&quot;&gt;&lt;/a&gt;When？&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;2022年6月
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;Why？&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Eassy" scheme="https://xzhou-amszaure.github.io/categories/Eassy/"/>
+    
+    
+    <category term="Blog" scheme="https://xzhou-amszaure.github.io/tags/Blog/"/>
+    
+  </entry>
+  
+</feed>
