@@ -315,7 +315,9 @@
 
     <div class="bg-cover pd-header about-cover">
     <div class="container">
-    <div class="row">
+    
+
+<div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -337,8 +339,8 @@
     </div>
 </div>
 <script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.png)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(' + '/medias/banner/9.png' + ')');
 </script>
     </div>
 </div>
@@ -357,11 +359,11 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 
                 
                 
-                <a href="/categories/Eassy/" title="Eassy: 1">
+                <a href="/categories/Essay/" title="Essay: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">Eassy
-                        <span class="tag-length">1</span>
+                            style="background-color: #F9EBEA;">Essay
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
@@ -407,7 +409,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"Eassy","max":2}],
+            indicator: [{"name":"Essay","max":4}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -418,7 +420,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1],
+                    value : [2],
                     name : 'Number of Categories'
                 }
             ]
@@ -434,7 +436,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            &copy; 2022 AMsZaure. All Rights Reserved.
+            &copy; 2022 AMsZaure. All rights reserved.
 
 <!--            
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
@@ -477,7 +479,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
 <!-- 不蒜子计数初始值纠正 -->
 <script>
-    $(document).ready(function () {
+/*    $(document).ready(function () {
 
         var int = setInterval(fixCount, 50);
         var pvcountOffset = 80000;
@@ -493,7 +495,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 clearInterval(int);
             }
         }
-    });
+    });*/
 </script>
 
 <script language=javascript>
