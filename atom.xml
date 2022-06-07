@@ -6,7 +6,7 @@
   <link href="https://xzhou-amszaure.github.io/atom.xml" rel="self"/>
   
   <link href="https://xzhou-amszaure.github.io/"/>
-  <updated>2022-06-07T06:41:27.929Z</updated>
+  <updated>2022-06-07T12:36:10.929Z</updated>
   <id>https://xzhou-amszaure.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linear Algebra Lec 1</title>
+    <link href="https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/"/>
+    <id>https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</id>
+    <published>2022-06-07T10:10:55.000Z</published>
+    <updated>2022-06-07T12:36:10.929Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Row-Picture&quot;&gt;&lt;a href=&quot;#Row-Picture&quot; class=&quot;headerlink&quot; title=&quot;Row Picture&quot;&gt;&lt;/a&gt;Row Picture&lt;/h1&gt;&lt;p&gt;Take the equation set (1.1) as an</summary>
+        
+      
+    
+    
+    
+    <category term="Notebook" scheme="https://xzhou-amszaure.github.io/categories/Notebook/"/>
+    
+    
+    <category term="Math" scheme="https://xzhou-amszaure.github.io/tags/Math/"/>
+    
+    <category term="Linear Algebra" scheme="https://xzhou-amszaure.github.io/tags/Linear-Algebra/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Second Post for Testing</title>
     <link href="https://xzhou-amszaure.github.io/2022/06/06/secondpost/"/>
     <id>https://xzhou-amszaure.github.io/2022/06/06/secondpost/</id>
     <published>2022-06-06T13:40:53.000Z</published>
-    <updated>2022-06-07T06:41:27.929Z</updated>
+    <updated>2022-06-07T11:52:30.862Z</updated>
     
     
       

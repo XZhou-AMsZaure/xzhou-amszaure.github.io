@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Linear Algebra Lec 1</title>
+      <link href="/2022/06/07/mit-linalg-lec1/"/>
+      <url>/2022/06/07/mit-linalg-lec1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Row-Picture"><a href="#Row-Picture" class="headerlink" title="Row Picture"></a>Row Picture</h1><p>Take the equation set (1.1) as an example.</p><p>$$<br>\begin{cases}<br>x+y+z&#x3D;0 \<br>x+2y+3z&#x3D;0 \<br>x+4y+5z&#x3D;0<br>\end{cases}<br>\tag{1.1}<br>$$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Notebook </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Math </tag>
+            
+            <tag> Linear Algebra </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Second Post for Testing</title>
       <link href="/2022/06/06/secondpost/"/>
       <url>/2022/06/06/secondpost/</url>
