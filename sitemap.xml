@@ -38,6 +38,15 @@
   </url>
   
   <url>
+    <loc>https://xzhou-amszaure.github.io/404.html</loc>
+    
+    <lastmod>2022-06-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzhou-amszaure.github.io/about/index.html</loc>
     
     <lastmod>2022-06-06</lastmod>
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/404.html</loc>
+    <loc>https://xzhou-amszaure.github.io/friends/index.html</loc>
     
     <lastmod>2022-06-06</lastmod>
     
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/contact/index.html</loc>
+    <loc>https://xzhou-amszaure.github.io/tags/index.html</loc>
     
     <lastmod>2022-06-06</lastmod>
     
@@ -83,16 +92,7 @@
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/friends/index.html</loc>
-    
-    <lastmod>2022-06-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzhou-amszaure.github.io/tags/index.html</loc>
+    <loc>https://xzhou-amszaure.github.io/contact/index.html</loc>
     
     <lastmod>2022-06-06</lastmod>
     
@@ -124,13 +124,6 @@
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/tags/Linear-Algebra/</loc>
-    <lastmod>2022-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xzhou-amszaure.github.io/tags/Blog/</loc>
     <lastmod>2022-06-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -151,6 +144,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://xzhou-amszaure.github.io/tags/Linear-Algebra/</loc>
+    <lastmod>2022-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -161,14 +161,14 @@
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/categories/Notebook/</loc>
+    <loc>https://xzhou-amszaure.github.io/categories/Essay/</loc>
     <lastmod>2022-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/categories/Essay/</loc>
+    <loc>https://xzhou-amszaure.github.io/categories/Notebook/</loc>
     <lastmod>2022-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
