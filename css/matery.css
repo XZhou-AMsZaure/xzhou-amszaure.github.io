@@ -1051,13 +1051,13 @@ article .article-tags .chip {
 }
 
 #artDetail .reprint .reprint-tip {
-    margin: 0 3px 22px 0;
+    margin: 0 3px 3px 0;
     font-size: 1.0rem;
     font-weight: 500;
 }
 
 #artDetail .reprint a {
-    font-size: 1.05rem;
+    font-size: 15px;
     color: #42b983;
     font-weight: 500;
 }
@@ -1865,6 +1865,7 @@ footer .copy-right {
     color: #525f7f;
     padding: 5px;
     border-bottom: 1px solid #d9d9d9;
+    font-size: 0.8rem;
 }
 
 .lg-sub-html .center-caption {

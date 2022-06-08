@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>Latex formulas</title>
+      <link href="/2022/06/08/latex-formulas/"/>
+      <url>/2022/06/08/latex-formulas/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Matrix"><a href="#Matrix" class="headerlink" title="Matrix"></a>Matrix</h1><h5 id="Matrix-1"><a href="#Matrix-1" class="headerlink" title="Matrix (1)"></a>Matrix (1)</h5><p>$$\left[\begin{array}{ccc}2 &amp; -1 &amp; 3 &amp; 5  &amp; 1\\<br>3 &amp; 8  &amp; 1 &amp; -4 &amp; -4\\<br>5 &amp; -3 &amp; 4 &amp; 1  &amp; 0\\<br>0 &amp; 3  &amp; 1 &amp; 5  &amp; -5\end{array}\right]\tag{1}$$</p><p>The Latex code is presented in <strong>Fig.1</strong>. In normal latex codes, double backslashes ( \\ ) is used to start a new line. However, due to the conflicts between the markdown renderer engine (marked.js) syntax and the latex syntax, it will not be rendered properly. “\\“ will first be recognized as an escape character “\“ by marked.js.  </p><p>So, if you want to change line in a latex block, you need to type for backslashes (<strong>Fig.1</strong>). Some other syntax</p><p><img src="/2022/06/08/latex-formulas/matrix1.png" title="Fig.1 Latex Code for Matrix (1)"><br><br></p><p>$$\left[\begin{array}{ccc}a_{11} &amp; _1^2a_{12} \\<br>a_{21} &amp; a_{22}\end{array}\right]\tag{2}$$</p><br>]]></content>
+      
+      
+      <categories>
+          
+          <category> Draft </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Math </tag>
+            
+            <tag> Latex </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linear Algebra Lec 1</title>
       <link href="/2022/06/07/mit-linalg-lec1/"/>
       <url>/2022/06/07/mit-linalg-lec1/</url>
       
-        <content type="html"><![CDATA[<h1 id="Row-Picture"><a href="#Row-Picture" class="headerlink" title="Row Picture"></a>Row Picture</h1><p>Take the equation set (1.1) as an example.</p><p>$$<br>\begin{cases}<br>x + y + z&#x3D;0 \\<br>x + 2y + 3z&#x3D;0 \\<br>x + 4y + 5z&#x3D;0<br>\end{cases}<br>\tag{1.1}<br>$$</p><p>$$<br>\left[<br>\begin{array}<br>{ccc}<br>2&amp;-1&amp;3\\<br>4&amp;5&amp;7<br>\end{array}<br>\right]<br>\tag{1.2}<br>$$</p><p>$$<br>\left[\begin{array}{ccc}<br>2&amp;-1\\<br>-1&amp;2<br>\end{array}\right]<br>$$</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Row-Picture"><a href="#Row-Picture" class="headerlink" title="Row Picture"></a>Row Picture</h1><p>Take the equation set (1.1) as an example.</p><p>$$\begin{cases}x + y + z&#x3D;0 \\<br>x + 2y + 3z&#x3D;0 \\<br>x + 4y + 5z&#x3D;0\end{cases}\tag{1.1}$$</p><p>$$\left[<br>\begin{array}{ccc}2&amp;-1&amp;3\\<br>4&amp;5&amp;7\end{array}\right]\tag{1.2}$$</p><p>$$\left[\begin{array}{ccc}2&amp;-1\\<br>-1&amp;2\end{array}\right]$$</p>]]></content>
       
       
       <categories>
@@ -35,7 +62,7 @@
       <link href="/2022/06/06/secondpost/"/>
       <url>/2022/06/06/secondpost/</url>
       
-        <content type="html"><![CDATA[<h1 id="Some-Thoughts"><a href="#Some-Thoughts" class="headerlink" title="Some Thoughts"></a>Some Thoughts</h1><ul><li>The best way to learn something is to get familiar with its backbone as quick as you can. <br><br>you don’t necessarily need to know all the concepts, or to understand all the equations. <br><br>DO NOT be distracted by those fancy equations!<br>!</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="Some-Thoughts"><a href="#Some-Thoughts" class="headerlink" title="Some Thoughts"></a>Some Thoughts</h1><ul><li>The best way to learn something is to get familiar with its backbone as quick as you can. <br><br>you don’t necessarily need to know all the concepts, or to understand all the equations. <br><br>DO NOT be distracted by those fancy equations! !</li></ul>]]></content>
       
       
       <categories>

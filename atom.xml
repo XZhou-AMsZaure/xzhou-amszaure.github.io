@@ -6,7 +6,7 @@
   <link href="https://xzhou-amszaure.github.io/atom.xml" rel="self"/>
   
   <link href="https://xzhou-amszaure.github.io/"/>
-  <updated>2022-06-07T15:46:19.296Z</updated>
+  <updated>2022-06-08T07:18:29.147Z</updated>
   <id>https://xzhou-amszaure.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Latex formulas</title>
+    <link href="https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/"/>
+    <id>https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/</id>
+    <published>2022-06-08T03:12:21.000Z</published>
+    <updated>2022-06-08T07:18:29.147Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Matrix&quot;&gt;&lt;a href=&quot;#Matrix&quot; class=&quot;headerlink&quot; title=&quot;Matrix&quot;&gt;&lt;/a&gt;Matrix&lt;/h1&gt;&lt;h5 id=&quot;Matrix-1&quot;&gt;&lt;a href=&quot;#Matrix-1&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Draft" scheme="https://xzhou-amszaure.github.io/categories/Draft/"/>
+    
+    
+    <category term="Math" scheme="https://xzhou-amszaure.github.io/tags/Math/"/>
+    
+    <category term="Latex" scheme="https://xzhou-amszaure.github.io/tags/Latex/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linear Algebra Lec 1</title>
     <link href="https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/"/>
     <id>https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</id>
     <published>2022-06-07T10:10:55.000Z</published>
-    <updated>2022-06-07T15:46:19.296Z</updated>
+    <updated>2022-06-08T03:10:14.071Z</updated>
     
     
       

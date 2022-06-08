@@ -77,6 +77,7 @@ $(function () {
             $(this).wrap('<div class="img-item" data-src="' + imgPath + '" data-sub-html=".caption"></div>');
             // 图片添加阴影
             $(this).addClass("img-shadow img-margin");
+            $(this).attr("data-src", imgPath)
             // 图片添加字幕
             let alt = $(this).attr('alt');
             let title = $(this).attr('title');
@@ -101,7 +102,7 @@ $(function () {
             }
         });
         $('#articleContent, #myGallery').lightGallery({
-            selector: '.img-item',
+            selector: '.img-shadow.img-margin',
             // 启用字幕
             subHtmlSelectorRelative: true
         });
