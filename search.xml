@@ -8,7 +8,7 @@
       <link href="/2022/06/07/mit-linalg-lec1/"/>
       <url>/2022/06/07/mit-linalg-lec1/</url>
       
-        <content type="html"><![CDATA[<h1 id="Row-Picture"><a href="#Row-Picture" class="headerlink" title="Row Picture"></a>Row Picture</h1><p>Take the equation set (1.1) as an example.</p><p>$$<br>\begin{cases}<br>x+y+z&#x3D;0 \<br>x+2y+3z&#x3D;0 \<br>x+4y+5z&#x3D;0<br>\end{cases}<br>\tag{1.1}<br>$$</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Row-Picture"><a href="#Row-Picture" class="headerlink" title="Row Picture"></a>Row Picture</h1><p>Take the equation set (1.1) as an example.</p><p>$$<br>\begin{cases}<br>x + y + z&#x3D;0 \\<br>x + 2y + 3z&#x3D;0 \\<br>x + 4y + 5z&#x3D;0<br>\end{cases}<br>\tag{1.1}<br>$$</p><p>$$<br>\left[<br>\begin{array}<br>{ccc}<br>2&amp;-1&amp;3\\<br>4&amp;5&amp;7<br>\end{array}<br>\right]<br>\tag{1.2}<br>$$</p><p>$$<br>\left[\begin{array}{ccc}<br>2&amp;-1\\<br>-1&amp;2<br>\end{array}\right]<br>$$</p>]]></content>
       
       
       <categories>
@@ -75,6 +75,8 @@
             <tag> Blog </tag>
             
             <tag> Thoughts </tag>
+            
+            <tag> Startup </tag>
             
         </tags>
       

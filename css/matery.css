@@ -331,7 +331,8 @@ header .brand-logo .logo-img {
 
 header .brand-logo .logo-span {
     font-size: 2rem;
-}
+    /*字体阴影效果，避免因背景图的原因看不清字*/
+    text-shadow:2px 2px 3px #000000;}
 
 header .button-collapse i {
     font-size: 1.5rem;
@@ -495,6 +496,8 @@ header .go-back i {
     position: relative;
     color: #fff;
     z-index: 2;
+    /*字体阴影效果，避免因背景图的原因看不清字*/
+    text-shadow:2px 2px 3px #000000;
 }
 
 .bg-cover .title {
@@ -506,7 +509,7 @@ header .go-back i {
 }
 
 .bg-cover .description {
-    font-size: 1.25rem;
+    font-size: 2.0rem;
     font-weight: 300;
     line-height: 1.4em;
     color: #eee;
@@ -830,7 +833,7 @@ article .article-content .summary {
     padding-bottom: 2px;
     padding-left: 0;
     margin-bottom: 6px;
-    word-break: break-all;
+    word-break: normal;
 }
 
 article .article-content .publish-author {
@@ -1049,7 +1052,7 @@ article .article-tags .chip {
 
 #artDetail .reprint .reprint-tip {
     margin: 0 3px 22px 0;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-weight: 500;
 }
 
