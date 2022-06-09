@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -22,7 +13,16 @@
   <url>
     <loc>https://xzhou-amszaure.github.io/2022/06/06/firstnote/</loc>
     
-    <lastmod>2022-06-07</lastmod>
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,16 +31,7 @@
   <url>
     <loc>https://xzhou-amszaure.github.io/2022/06/06/secondpost/</loc>
     
-    <lastmod>2022-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzhou-amszaure.github.io/404.html</loc>
-    
-    <lastmod>2022-06-06</lastmod>
+    <lastmod>2022-06-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,14 +40,14 @@
   <url>
     <loc>https://xzhou-amszaure.github.io/about/index.html</loc>
     
-    <lastmod>2022-06-06</lastmod>
+    <lastmod>2022-06-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/categories/index.html</loc>
+    <loc>https://xzhou-amszaure.github.io/404.html</loc>
     
     <lastmod>2022-06-06</lastmod>
     
@@ -74,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/contact/index.html</loc>
+    <loc>https://xzhou-amszaure.github.io/categories/index.html</loc>
     
     <lastmod>2022-06-06</lastmod>
     
@@ -100,6 +91,15 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://xzhou-amszaure.github.io/contact/index.html</loc>
+    
+    <lastmod>2022-06-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   <url>
     <loc>https://xzhou-amszaure.github.io/</loc>
@@ -110,7 +110,7 @@
 
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/tags/Math/</loc>
+    <loc>https://xzhou-amszaure.github.io/tags/Skills/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -118,6 +118,13 @@
   
   <url>
     <loc>https://xzhou-amszaure.github.io/tags/Latex/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzhou-amszaure.github.io/tags/Class-notes/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -138,14 +145,14 @@
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/tags/Thoughts/</loc>
+    <loc>https://xzhou-amszaure.github.io/tags/Startup/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/tags/Startup/</loc>
+    <loc>https://xzhou-amszaure.github.io/tags/Study/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -154,21 +161,14 @@
 
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/categories/Draft/</loc>
+    <loc>https://xzhou-amszaure.github.io/categories/Math/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/categories/Notebook/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzhou-amszaure.github.io/categories/Essay/</loc>
+    <loc>https://xzhou-amszaure.github.io/categories/Thoughts/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

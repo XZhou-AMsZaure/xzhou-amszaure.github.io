@@ -13,14 +13,14 @@
       
       <categories>
           
-          <category> Draft </category>
+          <category> Math </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Math </tag>
+            <tag> Skills </tag>
             
             <tag> Latex </tag>
             
@@ -40,14 +40,14 @@
       
       <categories>
           
-          <category> Notebook </category>
+          <category> Math </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Math </tag>
+            <tag> Class notes </tag>
             
             <tag> Linear Algebra </tag>
             
@@ -67,14 +67,14 @@
       
       <categories>
           
-          <category> Essay </category>
+          <category> Thoughts </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Thoughts </tag>
+            <tag> Study </tag>
             
         </tags>
       
@@ -92,7 +92,7 @@
       
       <categories>
           
-          <category> Essay </category>
+          <category> Thoughts </category>
           
       </categories>
       
@@ -100,8 +100,6 @@
         <tags>
             
             <tag> Blog </tag>
-            
-            <tag> Thoughts </tag>
             
             <tag> Startup </tag>
             
