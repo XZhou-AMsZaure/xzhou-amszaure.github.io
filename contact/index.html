@@ -102,7 +102,7 @@
             
             <i class="fa fa-tags"></i>
             
-            <span>Tags</span>
+            <span>Tags or Series</span>
         </a>
     </li>
     
@@ -172,7 +172,7 @@
                 
                 <i class="fa fa-fw fa-tags"></i>
                 
-                Tags
+                Tags or Series
             </a>
         </li>
         
@@ -294,6 +294,7 @@
             </div>
 
             <div class="description center-align">
+                <!--  如果当前页面有 description，就用页面的 description; 如果没有，就用 _config.yml 的 description  -->
                 
                     兴趣使然的深度学习研习者
                     <!-- <span id="jinrishici-sentence">正在加载今日诗词...</span> -->
@@ -304,7 +305,7 @@
 </div>
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(' + '/medias/banner/11.png' + ')');
+    $('.bg-cover').css('background-image', 'url(' + '/medias/banner/34.png' + ')');
 </script>
     </div>
 </div>
@@ -327,6 +328,31 @@
             
 
             
+            <div class="disqus-card card" data-aos="fade-up">
+    <div id="disqus_thread" class="card-content">
+        <noscript>Please enable JavaScript to view the
+            <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    </div>
+</div>
+
+<script type="text/javascript">
+    disqus_config = function () {
+        this.page.url = 'https://xzhou-amszaure.github.io/contact/index.html';
+        this.page.identifier = '/contact/index.html';
+        this.page.title = 'contact';
+    };
+    let disqus_shortname = 'xzamszaure';
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+        let d = document, s = d.createElement('script');
+        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+            
 
             
 
@@ -335,6 +361,19 @@
         </div>
     </div>
 </main>
+
+<script>
+    (function($){
+        setInterval(() => {
+            $.each($('iframe'), (arr,x) => {
+                let src = $(x).attr('src');
+                if (src && src.match(/(ads-iframe)|(disqusads)/gi)) {
+                    $(x).remove();
+                }
+            });
+        }, 300);
+    })(jQuery);
+</script>
     <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">

@@ -332,7 +332,8 @@ header .brand-logo .logo-img {
 header .brand-logo .logo-span {
     font-size: 2rem;
     /*字体阴影效果，避免因背景图的原因看不清字*/
-    text-shadow:2px 2px 3px #000000;}
+    text-shadow:2px 2px 3px #000000;
+}
 
 header .button-collapse i {
     font-size: 1.5rem;

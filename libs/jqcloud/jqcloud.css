@@ -1,7 +1,7 @@
 /* fonts */
 
 div.jqcloud {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Microsoft YaHei UI Light","Fira Code","-apple-system", "Helvetica", "Arial", sans-serif;
   font-size: 10px;
   line-height: normal;
 }
@@ -24,18 +24,18 @@ div.jqcloud span.w1 { font-size: 100%; }
 
 /* colors */
 
-div.jqcloud { color: #09f; }
+div.jqcloud { color: #9EB23B; }
 div.jqcloud a { color: inherit; }
-div.jqcloud a:hover { color: #0df; }
-div.jqcloud a:hover { color: #0cf; }
-div.jqcloud span.w10 { color: #0cf; }
-div.jqcloud span.w9 { color: #0cf; }
-div.jqcloud span.w8 { color: #0cf; }
-div.jqcloud span.w7 { color: #39d; }
-div.jqcloud span.w6 { color: #90c5f0; }
+div.jqcloud a:hover { color: #C74B50; }
+div.jqcloud a:hover { color: #064663; }
+div.jqcloud span.w10 { color: #E9A6A6; }
+div.jqcloud span.w9 { color: #ECB365; }
+div.jqcloud span.w8 { color: #4B5D67; }
+div.jqcloud span.w7 { color: #3C2C3E; }
+div.jqcloud span.w6 { color: #FF06B7; }
 div.jqcloud span.w5 { color: #90a0dd; }
-div.jqcloud span.w4 { color: #90c5f0; }
-div.jqcloud span.w3 { color: #a0ddff; }
+div.jqcloud span.w4 { color: #84142D; }
+div.jqcloud span.w3 { color: #C02739; }
 div.jqcloud span.w2 { color: #99ccee; }
 div.jqcloud span.w1 { color: #aab5f0; }
 

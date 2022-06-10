@@ -104,7 +104,7 @@
             
             <i class="fa fa-tags"></i>
             
-            <span>Tags</span>
+            <span>Tags or Series</span>
         </a>
     </li>
     
@@ -174,7 +174,7 @@
                 
                 <i class="fa fa-fw fa-tags"></i>
                 
-                Tags
+                Tags or Series
             </a>
         </li>
         
@@ -296,7 +296,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/35.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/33.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -562,6 +562,31 @@ $$
     
 
     
+    <div class="disqus-card card" data-aos="fade-up">
+    <div id="disqus_thread" class="card-content">
+        <noscript>Please enable JavaScript to view the
+            <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    </div>
+</div>
+
+<script type="text/javascript">
+    disqus_config = function () {
+        this.page.url = 'https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/';
+        this.page.identifier = '/2022/06/08/latex-formulas/';
+        this.page.title = 'Latex formulas';
+    };
+    let disqus_shortname = 'xzamszaure';
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+        let d = document, s = d.createElement('script');
+        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+    
 
     
 
@@ -581,7 +606,7 @@ $$
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/35.jpg" class="responsive-img" alt="Latex formulas">
+                        <img src="/medias/featureimages/33.jpg" class="responsive-img" alt="Latex formulas">
                         
                         <span class="card-title">Latex formulas</span>
                     </div>
@@ -635,7 +660,7 @@ $$
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/39.jpg" class="responsive-img" alt="Linear Algebra Lec 1">
+                        <img src="/medias/featureimages/37.png" class="responsive-img" alt="Linear Algebra Lec 1">
                         
                         <span class="card-title">Linear Algebra Lec 1</span>
                     </div>
@@ -709,10 +734,11 @@ $$
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             // headingsOffset: -205,
-            headingSelector: 'h1, h2, h3, h4'
+            headingSelector: 'h1, h2, h3, h4, h5'
         });
 
         // modify the toc link href to support Chinese.
+        // 将 markdown 脚本中的各级标题从上到下编号，href 字段从 "#toc-heading-1"，"#toc-heading-2"，... 依次往下排
         let i = 0;
         let tocHeading = 'toc-heading-';
         $('#toc-content a').each(function () {
@@ -720,8 +746,9 @@ $$
         });
 
         // modify the heading title id to support Chinese.
+        // 文章中设置对应的锚点，id 分别对应上面的 "#toc-heading-1"，"#toc-heading-2"，...
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 

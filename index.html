@@ -102,7 +102,7 @@
             
             <i class="fa fa-tags"></i>
             
-            <span>Tags</span>
+            <span>Tags or Series</span>
         </a>
     </li>
     
@@ -172,7 +172,7 @@
                 
                 <i class="fa fa-fw fa-tags"></i>
                 
-                Tags
+                Tags or Series
             </a>
         </li>
         
@@ -348,6 +348,7 @@
             </div>
 
             <div class="description center-align">
+                <!--  如果当前页面有 description，就用页面的 description; 如果没有，就用 _config.yml 的 description  -->
                 
                     兴趣使然的深度学习研习者
                     <!-- <span id="jinrishici-sentence">正在加载今日诗词...</span> -->
@@ -358,7 +359,7 @@
 </div>
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(' + '/medias/banner/11.png' + ')');
+    $('.bg-cover').css('background-image', 'url(' + '/medias/banner/34.png' + ')');
 </script>
 
             <div class="cover-btns">
@@ -404,7 +405,7 @@
     
     
     <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('/medias/featureimages/35.jpg');">
+            style="background-image: url('/medias/featureimages/33.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col s10 offset-s1">
@@ -426,7 +427,7 @@
     
     
     <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('/medias/featureimages/39.jpg');">
+            style="background-image: url('/medias/featureimages/37.png');">
         <div class="container">
             <div class="row">
                 <div class="col s10 offset-s1">
@@ -464,7 +465,7 @@ $(function () {
     let autoCarousel = function() {
         carouselIntervalId = setInterval(function () {
             coverSlider.carousel('next');
-        }, 10000);
+        }, 15000);
     };
     autoCarousel();
     
@@ -529,7 +530,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/35.jpg" class="responsive-img" alt="Latex formulas">
+                            <img src="/medias/featureimages/33.jpg" class="responsive-img" alt="Latex formulas">
                             
                             <span class="card-title">Latex formulas</span>
                         </div>
@@ -580,7 +581,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/39.jpg" class="responsive-img" alt="Linear Algebra Lec 1">
+                            <img src="/medias/featureimages/37.png" class="responsive-img" alt="Linear Algebra Lec 1">
                             
                             <span class="card-title">Linear Algebra Lec 1</span>
                         </div>
@@ -631,7 +632,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/42.jpg" class="responsive-img" alt="Second Post for Testing">
+                            <img src="/medias/featureimages/40.png" class="responsive-img" alt="Second Post for Testing">
                             
                             <span class="card-title">Second Post for Testing</span>
                         </div>
@@ -678,7 +679,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="About this blog">
+                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="About this blog">
                             
                             <span class="card-title">About this blog</span>
                         </div>

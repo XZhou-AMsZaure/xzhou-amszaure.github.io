@@ -103,7 +103,7 @@ The best way to learn something is to get familiar with its backbone as quick as
             
             <i class="fa fa-tags"></i>
             
-            <span>Tags</span>
+            <span>Tags or Series</span>
         </a>
     </li>
     
@@ -173,7 +173,7 @@ The best way to learn something is to get familiar with its backbone as quick as
                 
                 <i class="fa fa-fw fa-tags"></i>
                 
-                Tags
+                Tags or Series
             </a>
         </li>
         
@@ -295,7 +295,7 @@ The best way to learn something is to get familiar with its backbone as quick as
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/42.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/40.png')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -470,8 +470,7 @@ The best way to learn something is to get familiar with its backbone as quick as
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="Some-Thoughts"><a href="#Some-Thoughts" class="headerlink" title="Some Thoughts"></a>Some Thoughts</h1><ul>
-<li>The best way to learn something is to get familiar with its backbone as quick as you can. <br><br>you don’t necessarily need to know all the concepts, or to understand all the equations. <br><br>DO NOT be distracted by those fancy equations! 
-!</li>
+<li>The best way to learn something is to get familiar with its backbone as quick as you can. <br><br>you don’t necessarily need to know all the concepts, or to understand all the equations. <br><br>DO NOT be distracted by those fancy equations!!</li>
 </ul>
 
             </div>
@@ -539,6 +538,31 @@ The best way to learn something is to get familiar with its backbone as quick as
     
 
     
+    <div class="disqus-card card" data-aos="fade-up">
+    <div id="disqus_thread" class="card-content">
+        <noscript>Please enable JavaScript to view the
+            <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    </div>
+</div>
+
+<script type="text/javascript">
+    disqus_config = function () {
+        this.page.url = 'https://xzhou-amszaure.github.io/2022/06/06/secondpost/';
+        this.page.identifier = '/2022/06/06/secondpost/';
+        this.page.title = 'Second Post for Testing';
+    };
+    let disqus_shortname = 'xzamszaure';
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+        let d = document, s = d.createElement('script');
+        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+    
 
     
 
@@ -557,7 +581,7 @@ The best way to learn something is to get familiar with its backbone as quick as
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/39.jpg" class="responsive-img" alt="Linear Algebra Lec 1">
+                        <img src="/medias/featureimages/37.png" class="responsive-img" alt="Linear Algebra Lec 1">
                         
                         <span class="card-title">Linear Algebra Lec 1</span>
                     </div>
@@ -610,7 +634,7 @@ The best way to learn something is to get familiar with its backbone as quick as
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="About this blog">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="About this blog">
                         
                         <span class="card-title">About this blog</span>
                     </div>
@@ -684,10 +708,11 @@ The best way to learn something is to get familiar with its backbone as quick as
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             // headingsOffset: -205,
-            headingSelector: 'h1, h2, h3, h4'
+            headingSelector: 'h1, h2, h3, h4, h5'
         });
 
         // modify the toc link href to support Chinese.
+        // 将 markdown 脚本中的各级标题从上到下编号，href 字段从 "#toc-heading-1"，"#toc-heading-2"，... 依次往下排
         let i = 0;
         let tocHeading = 'toc-heading-';
         $('#toc-content a').each(function () {
@@ -695,8 +720,9 @@ The best way to learn something is to get familiar with its backbone as quick as
         });
 
         // modify the heading title id to support Chinese.
+        // 文章中设置对应的锚点，id 分别对应上面的 "#toc-heading-1"，"#toc-heading-2"，...
         i = 0;
-        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 

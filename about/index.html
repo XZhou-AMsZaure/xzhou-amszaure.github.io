@@ -102,7 +102,7 @@
             
             <i class="fa fa-tags"></i>
             
-            <span>Tags</span>
+            <span>Tags or Series</span>
         </a>
     </li>
     
@@ -172,7 +172,7 @@
                 
                 <i class="fa fa-fw fa-tags"></i>
                 
-                Tags
+                Tags or Series
             </a>
         </li>
         
@@ -301,6 +301,7 @@
             </div>
 
             <div class="description center-align">
+                <!--  如果当前页面有 description，就用页面的 description; 如果没有，就用 _config.yml 的 description  -->
                 
                     兴趣使然的深度学习研习者
                     <!-- <span id="jinrishici-sentence">正在加载今日诗词...</span> -->
@@ -311,7 +312,7 @@
 </div>
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(' + '/medias/banner/11.png' + ')');
+    $('.bg-cover').css('background-image', 'url(' + '/medias/banner/34.png' + ')');
 </script>
     </div>
 </div>
@@ -340,7 +341,7 @@
 
 <div class="statis">
     <span class="count"><a href="/tags" target="_blank">7</a></span>
-    <span class="name">Tags</span>
+    <span class="name">Tags or Series</span>
 </div>
 
                     </div>
@@ -369,7 +370,7 @@
 
 <div class="statis">
     <span class="count"><a href="/tags" target="_blank">7</a></span>
-    <span class="name">Tags</span>
+    <span class="name">Tags or Series</span>
 </div>
 
                                 </div>
@@ -449,6 +450,7 @@
     <div class="title center-align" data-aos="zoom-in-up">
         <i class="fa fa-bar-chart"></i>&nbsp;&nbsp;Post Charts
     </div>
+    <!--  About 页面三个统计图表  -->
     <div class="row">
         <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
             <div id="posts-chart"></div>
