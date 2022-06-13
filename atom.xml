@@ -6,7 +6,7 @@
   <link href="https://xzhou-amszaure.github.io/atom.xml" rel="self"/>
   
   <link href="https://xzhou-amszaure.github.io/"/>
-  <updated>2022-06-10T03:42:45.700Z</updated>
+  <updated>2022-06-13T06:38:50.726Z</updated>
   <id>https://xzhou-amszaure.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Latex formulas</title>
+    <title>Latex Formulas</title>
     <link href="https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/"/>
     <id>https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/</id>
     <published>2022-06-08T03:12:21.000Z</published>
-    <updated>2022-06-10T03:42:45.700Z</updated>
+    <updated>2022-06-13T06:38:50.726Z</updated>
     
     
       
@@ -44,18 +44,18 @@
   </entry>
   
   <entry>
-    <title>Linear Algebra Lec 1</title>
+    <title>Different Views of a Linear System of Equations</title>
     <link href="https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/"/>
     <id>https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</id>
     <published>2022-06-07T10:10:55.000Z</published>
-    <updated>2022-06-09T15:47:50.206Z</updated>
+    <updated>2022-06-13T10:37:25.147Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Row-Picture&quot;&gt;&lt;a href=&quot;#Row-Picture&quot; class=&quot;headerlink&quot; title=&quot;Row Picture&quot;&gt;&lt;/a&gt;Row Picture&lt;/h1&gt;&lt;p&gt;Take the equation set (1.1) as an</summary>
+    <summary type="html">&lt;h1 id=&quot;Row-Picture&quot;&gt;&lt;a href=&quot;#Row-Picture&quot; class=&quot;headerlink&quot; title=&quot;Row Picture&quot;&gt;&lt;/a&gt;Row Picture&lt;/h1&gt;&lt;p&gt;Take the linear system of</summary>
         
       
     
@@ -97,11 +97,11 @@
   </entry>
   
   <entry>
-    <title>About this blog</title>
+    <title>About This Blog</title>
     <link href="https://xzhou-amszaure.github.io/2022/06/06/firstnote/"/>
     <id>https://xzhou-amszaure.github.io/2022/06/06/firstnote/</id>
     <published>2022-06-06T07:27:31.000Z</published>
-    <updated>2022-06-09T15:54:48.907Z</updated>
+    <updated>2022-06-13T06:45:01.669Z</updated>
     
     
       
