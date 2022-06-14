@@ -6,7 +6,7 @@
   <link href="https://xzhou-amszaure.github.io/atom.xml" rel="self"/>
   
   <link href="https://xzhou-amszaure.github.io/"/>
-  <updated>2022-06-13T06:38:50.726Z</updated>
+  <updated>2022-06-14T01:02:11.084Z</updated>
   <id>https://xzhou-amszaure.github.io/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/"/>
     <id>https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/</id>
     <published>2022-06-08T03:12:21.000Z</published>
-    <updated>2022-06-13T06:38:50.726Z</updated>
+    <updated>2022-06-14T01:02:11.084Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Matrix&quot;&gt;&lt;a href=&quot;#Matrix&quot; class=&quot;headerlink&quot; title=&quot;Matrix&quot;&gt;&lt;/a&gt;Matrix&lt;/h1&gt;&lt;h5 id=&quot;Matrix-1&quot;&gt;&lt;a href=&quot;#Matrix-1&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;matrix&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#matrix&quot;&gt;&lt;/a&gt; Matrix&lt;/h1&gt;
+&lt;h5 id=&quot;matrix-1&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
         
       
     
@@ -48,14 +49,15 @@
     <link href="https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/"/>
     <id>https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</id>
     <published>2022-06-07T10:10:55.000Z</published>
-    <updated>2022-06-13T10:37:25.147Z</updated>
+    <updated>2022-06-14T01:08:31.949Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Row-Picture&quot;&gt;&lt;a href=&quot;#Row-Picture&quot; class=&quot;headerlink&quot; title=&quot;Row Picture&quot;&gt;&lt;/a&gt;Row Picture&lt;/h1&gt;&lt;p&gt;Take the linear system of</summary>
+    <summary type="html">&lt;h1 id=&quot;row-picture&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#row-picture&quot;&gt;&lt;/a&gt; Row Picture&lt;/h1&gt;
+&lt;p&gt;Take the linear system of equations</summary>
         
       
     
@@ -82,8 +84,9 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Some-Thoughts&quot;&gt;&lt;a href=&quot;#Some-Thoughts&quot; class=&quot;headerlink&quot; title=&quot;Some Thoughts&quot;&gt;&lt;/a&gt;Some Thoughts&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;The best way to</summary>
+    <summary type="html">&lt;h1 id=&quot;some-thoughts&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#some-thoughts&quot;&gt;&lt;/a&gt; Some Thoughts&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;The best way to learn something</summary>
         
       
     
@@ -108,9 +111,10 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;When？&quot;&gt;&lt;a href=&quot;#When？&quot; class=&quot;headerlink&quot; title=&quot;When？&quot;&gt;&lt;/a&gt;When？&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;2022年6月
+    <summary type="html">&lt;h2 id=&quot;when&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#when&quot;&gt;&lt;/a&gt; When？&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;2022年6月
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;Why？&quot;&gt;&lt;a</summary>
+&lt;h2 id=&quot;why&quot;&gt;&lt;a</summary>
         
       
     
