@@ -499,7 +499,7 @@
 <h2 id="how-much"><a class="markdownIt-Anchor" href="#how-much"></a> How much？</h2>
 
             </div>
-            <br/><br/>
+            <br/><br/><br/><br/>
             <hr />
 
             
@@ -704,6 +704,25 @@
 </div>
 
 
+
+<script>
+    // $(function (){
+    //     $('.footnote-ref a').each(function(){
+    //         // alert($(this).attr('target'))
+    //         $(this).removeAttr('target')
+    //     })
+    // });
+    (function($){
+        setInterval(() => {
+            $.each($('iframe'), (arr,x) => {
+                let src = $(x).attr('src');
+                if (src && src.match(/(ads-iframe)|(disqusads)/gi)) {
+                    $(x).remove();
+                }
+            });
+        }, 300);
+    })(jQuery);
+</script>
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
         <div class="toc-widget">

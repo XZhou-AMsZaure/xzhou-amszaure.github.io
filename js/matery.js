@@ -70,7 +70,35 @@ $(function () {
 
     /*文章内容详情的一些初始化特性*/
     let articleInit = function () {
-        $('#articleContent a').attr('target', '_blank');
+        // 这里把 Markdown 脚注标签都排除了
+        $('#articleContent a').not(".footnote-ref a, a.footnote-backref").attr('target', '_blank');
+
+        // 配置注脚标号与注脚本体相互点击传送！！！
+        $('.footnote-ref a').each(function () {
+            $(this).click(function () {
+                // var oIndex = $(this).parent().index()
+                // console.log('this.parent.index = ' + oIndex)
+                // console.log('this.id = ' + $(this).attr('id'))
+                var targetId = $(this).attr('id').replace('fnref', 'fnitm')
+                // console.log('targetId = ' + targetId)
+                var topOffset = $(document.getElementById(targetId)).offset().top - 400
+                $('html,body').animate({
+                    scrollTop:topOffset
+                }, 500);
+                return false;
+            })}
+        );
+
+        $('a.footnote-backref').each(function () {
+            $(this).click(function () {
+                var targetId = $(this).attr('id').replace('fnitm', 'fnref')
+                var topOffset = $(document.getElementById(targetId)).offset().top - 400
+                $('html,body').animate({
+                    scrollTop:topOffset
+                }, 500);
+                return false;
+            })
+        })
 
         $('#articleContent img').each(function () {
             let imgPath = $(this).attr('src');
