@@ -100,8 +100,8 @@ $(function () {
             })
         })
 
-        $('startReadBtn').click(function () {
-            var topOffset = $('#indexCard').offset().top - 400
+        $('#startReadBtn').click(function () {
+            var topOffset = $('#indexCard').offset().top - 200
             $('html,body').animate({
                 scrollTop:topOffset
             }, 500);
