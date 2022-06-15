@@ -75,7 +75,8 @@
 <body>
 
     <header class="navbar-fixed">
-    <nav id="headNav" class="bg-color nav-transparent">
+<!--    <nav id="headNav" class="bg-color nav-transparent">-->
+    <nav id="headNav" class="bg-color">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
@@ -361,11 +362,11 @@
 </div>
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(' + '/medias/banner/1458045947176522816.jpg' + ')');
+    $('.bg-cover').css('background-image', 'url(' + '/medias/banner/7620695423161468014.jpg' + ')');
 </script>
 
             <div class="cover-btns">
-                <a href="#indexCard" class="waves-effect waves-light btn">
+                <a href="#indexCard" id="startReadBtn" class="waves-effect waves-light btn">
                     <i class="fa fa-angle-double-down"></i>Start
                 </a>
 
@@ -407,7 +408,7 @@
     
     
     <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('/medias/featureimages/7515525455501221649.jpg');">
+            style="background-image: url('/medias/featureimages/2579247014268701965.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col s10 offset-s1">
@@ -429,7 +430,7 @@
     
     
     <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('/medias/featureimages/-960192650602338658.jpg');">
+            style="background-image: url('/medias/featureimages/-2195252497940458942.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col s10 offset-s1">
@@ -495,9 +496,11 @@ $(function () {
 
 
 
+
+
 <main class="content">
 
-<!--    
+    
     <div id="indexCard" class="index-card">
         <div class="container ">
             <div class="card">
@@ -513,12 +516,75 @@ $(function () {
 
 
 
+
+
+
+<div class="title"><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;Recommended Posts</div>
+
+<div class="row">
+
+    
+    
+    <div class="col s12 m6" >
+        <div class="post-card" style="background-image: url('/medias/featureimages/2579247014268701965.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                    <a href="/categories/Math/" class="category" target="_blank">Math</a>
+                    
+                </div>
+                <a href="/2022/06/08/latex-formulas/" target="_blank">
+                    <h3 class="post-title">Latex Formulas</h3>
+                </a>
+                <p class="post-description">
+                    
+                        Some practices of Latex
+                    
+                </p>
+                <a href="/2022/06/08/latex-formulas/" target="_blank"
+                        class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)">
+                    <i class="icon fa fa-eye fa-fw"></i>Read more
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" >
+        <div class="post-card" style="background-image: url('/medias/featureimages/-2195252497940458942.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                    <a href="/categories/Math/" class="category" target="_blank">Math</a>
+                    
+                </div>
+                <a href="/2022/06/07/mit-linalg-lec1/" target="_blank">
+                    <h3 class="post-title">Different Views of a Linear System of Equations</h3>
+                </a>
+                <p class="post-description">
+                    
+                        In this lecture, the Geometry forms of linear system of equations were introduced, i.e. the Row Picture and the Column Picture.
+                    
+                </p>
+                <a href="/2022/06/07/mit-linalg-lec1/" target="_blank"
+                        class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)">
+                    <i class="icon fa fa-eye fa-fw"></i>Read more
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    -->
+    
+
 
     
 
@@ -532,7 +598,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/7515525455501221649.jpg" class="responsive-img" alt="Latex Formulas">
+                            <img src="/medias/featureimages/2579247014268701965.jpg" class="responsive-img" alt="Latex Formulas">
                             
                             <span class="card-title">Latex Formulas</span>
                         </div>
@@ -583,7 +649,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/-960192650602338658.jpg" class="responsive-img" alt="Different Views of a Linear System of Equations">
+                            <img src="/medias/featureimages/-2195252497940458942.jpg" class="responsive-img" alt="Different Views of a Linear System of Equations">
                             
                             <span class="card-title">Different Views of a Linear System of Equations</span>
                         </div>
@@ -634,7 +700,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/-4912032362595785120.jpg" class="responsive-img" alt="Second Post for Testing">
+                            <img src="/medias/featureimages/-9112131718691949475.jpg" class="responsive-img" alt="Second Post for Testing">
                             
                             <span class="card-title">Second Post for Testing</span>
                         </div>
@@ -681,7 +747,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/-7013144864520847260.jpg" class="responsive-img" alt="About This Blog">
+                            <img src="/medias/featureimages/2447826239744967417.jpg" class="responsive-img" alt="About This Blog">
                             
                             <span class="card-title">About This Blog</span>
                         </div>

@@ -235,7 +235,8 @@ pre[class*="language-"] {
 code[class*="language-"],
 pre[class*="language-"] {
     color: #e8eaf6;
-    white-space: pre-wrap !important;
+    /* 代码块内部，超出显示部分的代码不会换行，而是继续往后写，往右边滚动就能看 */
+    white-space: pre !important;
 }
 
 b,
@@ -477,10 +478,10 @@ header .go-back i {
     height: 40vh !important;
 }
 
-.bg-cover:after {
-    -webkit-animation: rainbow 0s infinite;
-    animation: rainbow 0s infinite;
-}
+/*.bg-cover:after {*/
+/*    -webkit-animation: rainbow 60s infinite;*/
+/*    animation: rainbow 60s infinite;*/
+/*}*/
 
 .bg-cover:before, .bg-cover:after {
     position: absolute;
@@ -731,7 +732,7 @@ header .go-back i {
 .recommend .post-card .post-categories .category {
     padding: 0 8px;
     color: hsla(0, 0%, 100%, .7) !important;
-    font-size: .75rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -750,7 +751,7 @@ header .go-back i {
     max-width: 500px;
     height: 65px;
     max-height: 65px;
-    font-size: 14px;
+    font-size: 1rem;
     color: hsla(0, 0%, 100%, .78) !important;
 }
 
@@ -1920,4 +1921,19 @@ footer .copy-right {
     margin-top: 0.2em;
     /* bg color = bg color under block */
     background: white;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+    background-color: #FF2A68;
+    /*background-image: -webkit-linear-gradient(60deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);*/
+    border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+    background-color: #ffcacaff;
+    border-radius: 3em;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 15px;
 }

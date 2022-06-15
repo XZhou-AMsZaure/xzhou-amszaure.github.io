@@ -100,6 +100,14 @@ $(function () {
             })
         })
 
+        $('startReadBtn').click(function () {
+            var topOffset = $('#indexCard').offset().top - 400
+            $('html,body').animate({
+                scrollTop:topOffset
+            }, 500);
+            return false;
+        });
+
         $('#articleContent img').each(function () {
             let imgPath = $(this).attr('src');
             $(this).wrap('<div class="img-item" data-src="' + imgPath + '" data-sub-html=".caption"></div>');
@@ -154,10 +162,10 @@ $(function () {
     });
 
     /*监听滚动条位置*/
-    let $nav = $('#headNav');
+/*    let $nav = $('#headNav');
     let $backTop = $('.top-scroll');
     $(window).scroll(function () {
-        /* 回到顶部按钮根据滚动条的位置的显示和隐藏.*/
+        /!* 回到顶部按钮根据滚动条的位置的显示和隐藏.*!/
         let scroll = $(window).scrollTop();
         if (scroll < 100) {
             $nav.addClass('nav-transparent');
@@ -166,5 +174,5 @@ $(function () {
             $nav.removeClass('nav-transparent');
             $backTop.slideDown(300);
         }
-    });
+    });*/
 });
