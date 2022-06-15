@@ -141,7 +141,7 @@ pre[class*="language-"] {
 
 
 pre {
-    padding: 1.5rem 1.5rem 1.5rem 3.3rem !important;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
     margin: 1rem 0 !important;
     background: #272822;
     overflow: auto;
@@ -172,7 +172,7 @@ pre::after {
 
 code {
     padding: 1px 5px;
-    font-family: 'Fira Code', Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+    font-family: "Ubuntu Mono", Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
     /*font-size: 0.91rem;*/
     color: #e96900;
     background-color: #f8f8f8;
