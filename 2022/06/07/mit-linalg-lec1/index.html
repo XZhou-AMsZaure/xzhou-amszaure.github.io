@@ -1,14 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="default">
 
+
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Different Views of a Linear System of Equations, NLP DeepLearning Computer Vision AMsZaure 自然语言处理 深度学习 图像处理">
-    <meta name="baidu-site-verification" content="fmlEuI34ir" />
-    <meta name="google-site-verification" content="yCy2azpds5XSuGZvis6OuA-XIGF5GuGpYRAaGfD6o48" />
-    <meta name="360-site-verification" content="b7c11a830ef90fd1464ad6206bb7b6e7" />
-    <meta name="description" content=" Row Picture
-Take the linear system of equations (1.1) as an example. Each equation can be seen as a plane in 3D space, ">
+    <meta name="description" content="In this lecture, the Geometry forms of linear system of equations were introduced, i.e. the Row Picture and the Column Picture.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,65 +13,34 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    
+
     <title>Different Views of a Linear System of Equations | AMsZaure&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
-    <link rel="stylesheet" type="text/css" href="/css/prism.css">
-    <style type="text/css">
-        
-    </style>
-
-    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?ce84511d3df71640a9378a69f6293044";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-
-    
-        <script>
-            (function(){
-                var bp = document.createElement('script');
-                var curProtocol = window.location.protocol.split(':')[0];
-                if (curProtocol === 'https') {
-                    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-                }
-                else {
-                    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-                }
-                var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(bp, s);
-            })();
-        </script>
-    
-
-    <script>
-        (function(){
-        var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
-        document.write('<script src="' + src + '" id="sozz"><\/script>');
-        })();
-    </script>
-
+<!--    <link rel="stylesheet" type="text/css" href="/css/prism.css">-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.css" integrity="sha384-bsHo4/LA+lkZv61JspMDQB9QP1TtO4IgOf2yYS+J6VdAYLVyx1c3XKcsHh0Vy8Ws" crossorigin="anonymous">
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+<!--    <script src="/js/prism.js" async></script>-->
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.js" integrity="sha384-4z8mjH4yIpuK9dIQGR1JwbrfYsStrNK6MP+2Enhue4eyo0XlBDXOIPc8b6ZU0ajz" crossorigin="anonymous"></script>
 
 <meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="AMsZaure's Blog" type="application/atom+xml">
 </head>
 
-<body>
 
+<body>
     <header class="navbar-fixed">
 <!--    <nav id="headNav" class="bg-color nav-transparent">-->
     <nav id="headNav" class="bg-color">
@@ -84,65 +50,76 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">AMsZaure's Blog</span>
+                    <span class="logo-span">AMsZaure&#39;s Blog</span>
                 </a>
             </div>
             
 
-<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
-<ul class="right">
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
     
-    <li class="hide-on-med-and-down">
-        <a href="/" class="waves-effect waves-light">
-            
-            <i class="fa fa-home"></i>
-            
-            <span>Index</span>
-        </a>
-    </li>
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
     
-    <li class="hide-on-med-and-down">
-        <a href="/tags" class="waves-effect waves-light">
-            
-            <i class="fa fa-tags"></i>
-            
-            <span>Tags or Series</span>
-        </a>
-    </li>
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
     
-    <li class="hide-on-med-and-down">
-        <a href="/categories" class="waves-effect waves-light">
-            
-            <i class="fa fa-bookmark"></i>
-            
-            <span>Categories</span>
-        </a>
-    </li>
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags or Series</span>
+    </a>
     
-    <li class="hide-on-med-and-down">
-        <a href="/archives" class="waves-effect waves-light">
-            
-            <i class="fa fa-archive"></i>
-            
-            <span>Archives</span>
-        </a>
-    </li>
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
     
-    <li class="hide-on-med-and-down">
-        <a href="/about" class="waves-effect waves-light">
-            
-            <i class="fa fa-user-circle-o"></i>
-            
-            <span>About</span>
-        </a>
-    </li>
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
     
-    <li>
-        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-            <i id="searchIcon" class="fa fa-search" title="Search"></i>
-        </a>
-    </li>
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
 </ul>
+
 
 <div id="mobile-nav" class="side-nav sidenav">
 
@@ -150,7 +127,7 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">AMsZaure's Blog</div>
+        <div class="logo-name">AMsZaure&#39;s Blog</div>
         <div class="logo-desc">
             
             兴趣使然的深度学习研习者
@@ -158,65 +135,74 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
         </div>
     </div>
 
-    
-
     <ul class="menu-list mobile-menu-list">
         
-        <li>
-            <a href="/" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-home"></i>
-                
-                Index
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
         </li>
         
-        <li>
-            <a href="/tags" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-tags"></i>
-                
-                Tags or Series
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags or Series
+		</a>
+          
         </li>
         
-        <li>
-            <a href="/categories" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-bookmark"></i>
-                
-                Categories
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
         </li>
         
-        <li>
-            <a href="/archives" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-archive"></i>
-                
-                Archives
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
         </li>
         
-        <li>
-            <a href="/about" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-user-circle-o"></i>
-                
-                About
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
         </li>
         
         
         <li><div class="divider"></div></li>
         <li>
             <a href="https://github.com/XZhou-AMsZaure/xzhou-amszaure.github.io" class="waves-effect waves-light" target="_blank">
-                <i class="fa fa-github-square fa-fw"></i>Fork Me
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
             </a>
         </li>
         
     </ul>
 </div>
+
 
         </div>
 
@@ -298,19 +284,18 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/-2195252497940458942.jpg')">
-    <div class="container">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/-2303643270581769524.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <div class="description center-align post-title">
-                        Different Views of a Linear System of Equations
-                    </div>
+                    <h1 class="description center-align post-title">Different Views of a Linear System of Equations</h1>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 
 
@@ -342,20 +327,25 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
     }
 
     .toc-widget {
+        width: 345px;
         padding-left: 20px;
     }
 
     .toc-widget .toc-title {
-        margin: 35px 0 15px 0;
-        padding-left: 17px;
+        padding: 35px 0 15px 17px;
         font-size: 1.5rem;
         font-weight: bold;
-        line-height: 1.9rem;
+        line-height: 1.5rem;
     }
 
     .toc-widget ol {
         padding: 0;
         list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
     }
 
     #toc-content ol {
@@ -364,7 +354,6 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
 
     #toc-content ol li {
         padding-left: 10px;
-        line-height: 1.9rem;
     }
 
     #toc-content .toc-link:hover {
@@ -376,19 +365,19 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
     #toc-content .toc-link::before {
         background-color: transparent;
         max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
     }
 
     #toc-content .is-active-link {
         color: #42b983;
     }
 
-    #toc-content .is-active-link::before {
-        background-color: #42b983;
-    }
-
     #floating-toc-btn {
         position: fixed;
-        right: 20px;
+        right: 15px;
         bottom: 76px;
         padding-top: 15px;
         margin-bottom: 0;
@@ -416,13 +405,13 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/Class-notes/" target="_blank">
-                            <span class="chip bg-color">Class notes</span>
-                        </a>
+                            <a href="/tags/Class-notes/">
+                                <span class="chip bg-color">Class notes</span>
+                            </a>
                         
-                        <a href="/tags/Linear-Algebra/" target="_blank">
-                            <span class="chip bg-color">Linear Algebra</span>
-                        </a>
+                            <a href="/tags/Linear-Algebra/">
+                                <span class="chip bg-color">Linear Algebra</span>
+                            </a>
                         
                     </div>
                     
@@ -430,11 +419,11 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
                 <div class="col s5 right-align">
                     
                     <div class="post-cate">
-                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/Math/" class="post-category" target="_blank">
-                            Math
-                        </a>
+                            <a href="/categories/Math/" class="post-category">
+                                Math
+                            </a>
                         
                     </div>
                     
@@ -442,38 +431,51 @@ Take the linear system of equations (1.1) as an example. Each equation can be se
             </div>
 
             <div class="post-info">
+                
                 <div class="post-date info-break-policy">
-                    <i class="fa fa-calendar-minus-o fa-fw"></i>&nbsp;&nbsp;
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish:&nbsp;&nbsp;
                     2022-06-07
                 </div>
-
-                <div class="post-author info-break-policy">
-                    <i class="fa fa-user-o fa-fw"></i>&nbsp;&nbsp;
-                    
-                    AMsZaure
-                    
-                </div>
+                
 
                 
-                
-                <div class="info-break-policy">
-                    <i class="fa fa-pencil-square-o fa-fw"></i>&nbsp;&nbsp;
-                    684&nbsp;words
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>Update:&nbsp;&nbsp;
+                    2022-06-18
                 </div>
                 
 
                 
                 <div class="info-break-policy">
-                    <i class="fa fa-clock-o fa-fw"></i>&nbsp;&nbsp;
-                    4 min read
+                    <i class="far fa-file-word fa-fw"></i>
+                    680&nbsp;&nbsp;words
                 </div>
                 
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>
+                    4&nbsp;&nbsp;min read
+                </div>
                 
 
-<!--                -->
+                
             </div>
         </div>
         <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/css/prism.css">
+        
+
+        
+        <!-- 代码块折行 -->
+        <style type="text/css">
+            code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+        </style>
+        
+
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="row-picture"><a class="markdownIt-Anchor" href="#row-picture"></a> Row Picture</h1>
@@ -490,8 +492,8 @@ x - 4y + 5z=2
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:4.32em;vertical-align:-1.9099999999999997em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.35002em;"><span style="top:-2.19999em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎩</span></span></span><span style="top:-2.19999em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎪</span></span></span><span style="top:-3.1500100000000004em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎨</span></span></span><span style="top:-4.30001em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎪</span></span></span><span style="top:-4.60002em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎧</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.8500199999999998em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.41em;"><span style="top:-4.41em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">0</span></span></span><span style="top:-2.97em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">2</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">3</span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span></span></span><span style="top:-1.5300000000000002em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">4</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">5</span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.9099999999999997em;"><span></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="tag"><span class="strut" style="height:4.32em;vertical-align:-1.9099999999999997em;"></span><span class="mord text"><span class="mord">(</span><span class="mord"><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span></span><span class="mord">)</span></span></span></span></span></span></p>
 <img src="/2022/06/07/mit-linalg-lec1/three_planes.gif" class="" width="350" title="Fig.1.1 Row Picture of System of Equations 1.1">
 <img src="/2022/06/07/mit-linalg-lec1/intersection_of_three_planes.png" class="" width="350" title="Fig.1.2 Intersection Point">  
-<p>In this simple case, we can easily find the solution with computer or even by drawing on the paper <sup class="footnote-ref"><a href="#fn-1" id="fnref-1">[1]</a></sup>. However, if the
-number of equations <sup class="footnote-ref"><a href="#fn-2" id="fnref-2">[2]</a></sup> and variables increase <sup class="footnote-ref"><a href="#fn-2" id="fnref-2:1">[2:1]</a></sup>, the visualization will <sup class="footnote-ref"><a href="#fn-3" id="fnref-3">[3]</a></sup> be hard or impossible for now. In <strong>1.2</strong>, there are
+<p>In this simple case, we can easily find the solution with computer or even by drawing on the paper. However, if the
+number of equations and variables increase , the visualization will be hard or impossible for now. In <strong>1.2</strong>, there are
 eight variables in eight equations. Each equation represents a 7D space 😕, which cannot be visualized.</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mtable width="100%"><mtr><mtd width="50%"></mtd><mtd><mrow><mo fence="true">{</mo><mtable rowspacing="0.3599999999999999em" columnalign="left left" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mn>2</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>3</mn><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mn>2</mn><msub><mi>x</mi><mn>3</mn></msub><mo>−</mo><mn>3</mn><msub><mi>x</mi><mn>4</mn></msub><mo>−</mo><mn>2</mn><msub><mi>x</mi><mn>5</mn></msub><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>x</mi><mn>6</mn></msub><mo>+</mo><mn>5</mn><msub><mi>x</mi><mn>7</mn></msub><mo>−</mo><msub><mi>x</mi><mn>8</mn></msub><mo>=</mo><mo>−</mo><mn>1</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>−</mo><mn>1</mn><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><mn>4</mn><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><msub><mi>x</mi><mn>3</mn></msub><mo>+</mo><mn>8</mn><msub><mi>x</mi><mn>4</mn></msub><mo>−</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><msub><mi>x</mi><mn>5</mn></msub><mo>+</mo><mn>3</mn><msub><mi>x</mi><mn>6</mn></msub><mo>+</mo><mn>2</mn><msub><mi>x</mi><mn>7</mn></msub><mo>+</mo><mn>3</mn><msub><mi>x</mi><mn>8</mn></msub><mo>=</mo><mn>5</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>−</mo><mn>4</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>7</mn><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mn>3</mn><msub><mi>x</mi><mn>4</mn></msub><mo>−</mo><mn>7</mn><msub><mi>x</mi><mn>5</mn></msub><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>x</mi><mn>6</mn></msub><mo>+</mo><mn>5</mn><msub><mi>x</mi><mn>7</mn></msub><mo>+</mo><mn>4</mn><msub><mi>x</mi><mn>8</mn></msub><mo>=</mo><mn>10</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mn>3</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>12</mn><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>−</mo><mn>14</mn><msub><mi>x</mi><mn>4</mn></msub><mo>−</mo><mn>5</mn><msub><mi>x</mi><mn>5</mn></msub><mo>−</mo><mn>3</mn><msub><mi>x</mi><mn>6</mn></msub><mo>+</mo><mn>8</mn><msub><mi>x</mi><mn>7</mn></msub><mo>−</mo><mn>11</mn><msub><mi>x</mi><mn>8</mn></msub><mo>=</mo><mo>−</mo><mn>4</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mn>7</mn><msub><mi>x</mi><mn>1</mn></msub><mo>−</mo><mn>8</mn><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mn>16</mn><msub><mi>x</mi><mn>3</mn></msub><mo>+</mo><mn>9</mn><msub><mi>x</mi><mn>4</mn></msub><mo>−</mo><msub><mi>x</mi><mn>5</mn></msub><mo>+</mo><mn>9</mn><msub><mi>x</mi><mn>6</mn></msub><mo>−</mo><mn>5</mn><msub><mi>x</mi><mn>7</mn></msub><mo>+</mo><mn>6</mn><msub><mi>x</mi><mn>8</mn></msub><mo>=</mo><mo>−</mo><mn>16</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mn>9</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>3</mn><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><mn>5</mn><msub><mi>x</mi><mn>3</mn></msub><mo>+</mo><mn>5</mn><msub><mi>x</mi><mn>4</mn></msub><mo>+</mo><mn>12</mn><msub><mi>x</mi><mn>5</mn></msub><mo>+</mo><mn>20</mn><msub><mi>x</mi><mn>7</mn></msub><mo>+</mo><mn>7</mn><msub><mi>x</mi><mn>8</mn></msub><mo>=</mo><mn>8</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>6</mn><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><mn>3</mn><msub><mi>x</mi><mn>3</mn></msub><mo>+</mo><mn>21</mn><msub><mi>x</mi><mn>4</mn></msub><mo>+</mo><mn>2</mn><msub><mi>x</mi><mn>5</mn></msub><mo>−</mo><mn>3</mn><msub><mi>x</mi><mn>6</mn></msub><mo>+</mo><mn>13</mn><msub><mi>x</mi><mn>7</mn></msub><mo>−</mo><msub><mi>x</mi><mn>8</mn></msub><mo>=</mo><mfrac><mn>6</mn><mn>17</mn></mfrac></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mn>4</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mfrac><mn>7</mn><mn>8</mn></mfrac><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mn>4</mn><msub><mi>x</mi><mn>3</mn></msub><mo>+</mo><mn>3</mn><msub><mi>x</mi><mn>4</mn></msub><mo>−</mo><mn>3</mn><msub><mi>x</mi><mn>5</mn></msub><mo>+</mo><mn>7</mn><msub><mi>x</mi><mn>6</mn></msub><mo>+</mo><mn>5</mn><msub><mi>x</mi><mn>7</mn></msub><mo>+</mo><mn>3</mn><msub><mi>x</mi><mn>8</mn></msub><mo>=</mo><mo>−</mo><mn>9</mn></mrow></mstyle></mtd></mtr></mtable></mrow></mtd><mtd width="50%"></mtd><mtd><mtext>(1.2)</mtext></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{cases}
 2x_1 + 3x_2 + 2x_3 - 3x_4 - 2x_5 + \frac{1}{2}x_6 + 5x_7 - x_8 = -1 \\[1ex]
@@ -544,62 +546,54 @@ x
 suitable <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span></span></span></span>, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>z</mi></mrow><annotation encoding="application/x-tex">z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span></span></span></span> so that the combination of the vectors on the left hand of equation equals to the vector on
 the right hand.</p>
 <p>Compared with the row picture, it's easier to be understood in high dimension cases. For the system of equations
-(<strong>1.2</strong>), it can be viewed as a combination of eight 8D vectors, creating another vector in 8D space. No matter how high
-the dimension is, a vector can always be represented by an arrow. You don't need to imagine a 7D space.</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn-1" class="footnote-item"><p>This is a footnote <a href="#fnref-1" class="footnote-backref" id="fnitm-1">↩︎</a></p>
-</li>
-<li id="fn-2" class="footnote-item"><p>This is footnote no.2 <a href="#fnref-2" class="footnote-backref" id="fnitm-2">↩︎</a> <a href="#fnref-2:1" class="footnote-backref" id="fnitm-2:1">↩︎</a></p>
-</li>
-<li id="fn-3" class="footnote-item"><p><a target="_blank" rel="noopener" href="http://www.google.com/">Google</a> <a href="#fnref-3" class="footnote-backref" id="fnitm-3">↩︎</a></p>
-</li>
-</ol>
-</section>
+(<strong>1.2</strong>), it can be viewed as a combination of eight 8D vectors (Those in the right hand), creating another vector in
+8D space (The one in the right hand). No matter how high the dimension is, a vector can always be represented by an
+arrow. You don't need to imagine a 7D space.</p>
 
+                
             </div>
-            <br/><br/><br/><br/>
-            <hr />
 
-            
-
-            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-
-<!--<div id="article-share">
-    
-    <div class="social-share" data-disabled="qzone, qq, weibo, douban"></div>
-    
-</div>-->
-
-<script src="/libs/share/js/social-share.min.js"></script>
+            <br><br><br><br>
+            <hr/>
 
             
 
     <div class="reprint" id="reprint-statement">
-        <p class="reprint-tip">
-            <i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;
-            <span>Reprint policy</span>
-        </p>
         
-            <div class="center-align">
-                <a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-                    <img alt=""
-                         style="border-width:0"
-                         src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
-                </a>
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+<!--                        Author:-->
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">AMsZaure</a>
+                </span>
             </div>
-            <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
-                  property="dct:title" rel="dct:type">
-                <i>Different Views of a Linear System of Equations</i>
-                </span> by
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2022/06/07/mit-linalg-lec1/" property="cc:attributionName"
-               rel="cc:attributionURL">
-                AMsZaure
-            </a> is licensed under a
-            <a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-                Creative Commons Attribution 4.0 International License
-            </a> 
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+<!--                        Link:-->
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/">https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+<!--                        Reprint policy:-->
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint policy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">AMsZaure</a>
+                    !
+                </span>
+            </div>
         
     </div>
 
@@ -615,6 +609,39 @@ the dimension is, a vector can always be represented by an arrow. You don't need
     </script>
 
 
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Class-notes/">
+                                    <span class="chip bg-color">Class notes</span>
+                                </a>
+                            
+                                <a href="/tags/Linear-Algebra/">
+                                    <span class="chip bg-color">Linear Algebra</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
         </div>
     </div>
 
@@ -623,7 +650,7 @@ the dimension is, a vector can always be represented by an arrow. You don't need
     
 
     
-    <div class="disqus-card card" data-aos="fade-up">
+        <div class="disqus-card card" data-aos="fade-up">
     <div id="disqus_thread" class="card-content">
         <noscript>Please enable JavaScript to view the
             <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
@@ -643,10 +670,19 @@ the dimension is, a vector can always be represented by an arrow. You don't need
         let d = document, s = d.createElement('script');
         // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
         s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
+        s.setAttribute('data-timestamp', new Date());
         (d.head || d.body).appendChild(s);
     })();
 </script>
+
+    
+
+    
+
+    
+
+    
+
     
 
     
@@ -660,13 +696,13 @@ the dimension is, a vector can always be represented by an arrow. You don't need
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
                 <a href="/2022/06/08/latex-formulas/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2579247014268701965.jpg" class="responsive-img" alt="Latex Formulas">
+                        <img src="/medias/featureimages/2827170114919290536.jpg" class="responsive-img" alt="Latex Formulas">
                         
                         <span class="card-title">Latex Formulas</span>
                     </div>
@@ -679,13 +715,13 @@ the dimension is, a vector can always be represented by an arrow. You don't need
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-08
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-06-08
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Math/" class="post-category" target="_blank">
+                            <a href="/categories/Math/" class="post-category">
                                     Math
                                 </a>
                             
@@ -696,11 +732,11 @@ the dimension is, a vector can always be represented by an arrow. You don't need
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Skills/" target="_blank">
+                    <a href="/tags/Skills/">
                         <span class="chip bg-color">Skills</span>
                     </a>
                     
-                    <a href="/tags/Latex/" target="_blank">
+                    <a href="/tags/Latex/">
                         <span class="chip bg-color">Latex</span>
                     </a>
                     
@@ -712,14 +748,14 @@ the dimension is, a vector can always be represented by an arrow. You don't need
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fa fa-chevron-right"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2022/06/06/secondpost/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/-9112131718691949475.jpg" class="responsive-img" alt="Second Post for Testing">
+                        <img src="/medias/featureimages/-9000941480202689011.jpg" class="responsive-img" alt="Second Post for Testing">
                         
                         <span class="card-title">Second Post for Testing</span>
                     </div>
@@ -727,18 +763,18 @@ the dimension is, a vector can always be represented by an arrow. You don't need
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Some Thoughts,Testing File
+                            Some Thoughts,Testing Post
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-06-06
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-06-06
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Thoughts/" class="post-category" target="_blank">
+                            <a href="/categories/Thoughts/" class="post-category">
                                     Thoughts
                                 </a>
                             
@@ -749,7 +785,7 @@ the dimension is, a vector can always be represented by an arrow. You don't need
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Study/" target="_blank">
+                    <a href="/tags/Study/">
                         <span class="chip bg-color">Study</span>
                     </a>
                     
@@ -760,17 +796,12 @@ the dimension is, a vector can always be represented by an arrow. You don't need
         
     </div>
 </article>
+
 </div>
 
 
 
 <script>
-    // $(function (){
-    //     $('.footnote-ref a').each(function(){
-    //         // alert($(this).attr('target'))
-    //         $(this).removeAttr('target')
-    //     })
-    // });
     (function($){
         setInterval(() => {
             $.each($('iframe'), (arr,x) => {
@@ -782,10 +813,29 @@ the dimension is, a vector can always be represented by an arrow. You don't need
         }, 300);
     })(jQuery);
 </script>
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+  <!-- 是否加载使用自带的 prismjs. -->
+  <script type="text/javascript" src="/js/prism.js"></script>
+
+
+<!-- 代码语言 -->
+
+
+<!-- 代码块复制 -->
+
+
+<!-- 代码块收缩 -->
+
+
+
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget">
-            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
             <div id="toc-content"></div>
         </div>
     </div>
@@ -795,7 +845,7 @@ the dimension is, a vector can always be represented by an arrow. You don't need
 
 <div id="floating-toc-btn" class="hide-on-med-and-down">
     <a class="btn-floating btn-large bg-color">
-        <i class="fa fa-list"></i>
+        <i class="fas fa-list-ul"></i>
     </a>
 </div>
 
@@ -807,23 +857,8 @@ the dimension is, a vector can always be represented by an arrow. You don't need
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
-            // headingsOffset: -205,
+            collapseDepth: Number('0'),
             headingSelector: 'h1, h2, h3, h4, h5'
-        });
-
-        // modify the toc link href to support Chinese.
-        // 将 markdown 脚本中的各级标题从上到下编号，href 字段从 "#toc-heading-1"，"#toc-heading-2"，... 依次往下排
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        // 文章中设置对应的锚点，id 分别对应上面的 "#toc-heading-1"，"#toc-heading-2"，...
-        i = 0;
-        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
-            $(this).attr('id', tocHeading + (++i));
         });
 
         // Set scroll toc fixed.
@@ -866,10 +901,10 @@ the dimension is, a vector can always be represented by an arrow. You don't need
         let $mainContent = $('#main-content');
         $('#floating-toc-btn .btn-floating').click(function () {
             if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).slideUp(500);
+                $tocAside.removeClass(expandedClass).hide();
                 $mainContent.removeClass('l9');
             } else {
-                $tocAside.addClass(expandedClass).slideDown(500);
+                $tocAside.addClass(expandedClass).show();
                 $mainContent.addClass('l9');
             }
             fixPostCardWidth('artDetail', 'prenext-posts');
@@ -877,37 +912,108 @@ the dimension is, a vector can always be represented by an arrow. You don't need
         
     });
 </script>
+
     
 
 </main>
 
 
+
+
     <footer class="page-footer bg-color">
-    <div class="container row center-align">
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
-            &copy; 2022 AMsZaure. All rights reserved.
-
-<!--            
-            &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">1.9k</span>
-            -->
-
-            <br>
-            <span id="sitetime"></span>
-
+            Copyright&nbsp;&copy;
             
+                <span id="year">2022</span>
+            
+            <a href="/about" target="_blank">AMsZaure&nbsp;All rights reserved.</a>
+            <br>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+<!--            -->
+            
+            
+<!--            
+            -->
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+                <span id="sitetime"> Loading ...</span>
+                <script>
+                    var calcSiteTime = function () {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2022";
+                        var startMonth = "6";
+                        var startDate = "6";
+                        var startHour = "12";
+                        var startMinute = "0";
+                        var startSecond = "0";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+
+                        // 区分是否有年份.
+                        var language = 'default';
+                        if (startYear === String(todayYear)) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            var daysTip = 'This site has been running for ' + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                daysTip = '本站已运行 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                daysTip = '本站已運行 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = daysTip;
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
+                                + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
+                        }
+                    }
+
+                    calcSiteTime();
+                </script>
+            
+            <br>
             
         </div>
         <div class="col s12 m4 l4 social-link ">
-    <a href="https://github.com/XZhou-AMsZaure" class="tooltipped" target="_blank" data-tooltip="Visit My GitHub" data-position="top" data-delay="50">
-        <i class="fa fa-github"></i>
+    <a href="https://github.com/XZhou-AMsZaure" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:amszaure@gmail.com" class="tooltipped" target="_blank" data-tooltip="Email Me" data-position="top" data-delay="50">
-        <i class="fa fa-envelope-open"></i>
+    <a href="mailto:amszaure@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
     </a>
+
+
+
+
 
 
 
@@ -918,70 +1024,21 @@ the dimension is, a vector can always be represented by an arrow. You don't need
 
 
     <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fa fa-rss"></i>
+        <i class="fas fa-rss"></i>
     </a>
+
 </div>
     </div>
 </footer>
 
 <div class="progress-bar"></div>
 
-<!-- 不蒜子计数初始值纠正 -->
-<script>
-/*    $(document).ready(function () {
-
-        var int = setInterval(fixCount, 50);
-        var pvcountOffset = 80000;
-        var uvcountOffset = 20000;
-
-        function fixCount() {
-            if (document.getElementById("busuanzi_container_site_pv").style.display != "none") {
-                $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + pvcountOffset);
-                clearInterval(int);
-            }
-            if ($("#busuanzi_container_site_pv").css("display") != "none") {
-                $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + uvcountOffset); // 加上初始数据 
-                clearInterval(int);
-            }
-        }
-    });*/
-</script>
-
-<script language=javascript>
-    function siteTime() {
-        window.setTimeout("siteTime()", 1000);
-        var seconds = 1000;
-        var minutes = seconds * 60;
-        var hours = minutes * 60;
-        var days = hours * 24;
-        var years = days * 365;
-        var today = new Date();
-        var todayYear = today.getFullYear();
-        var todayMonth = today.getMonth() + 1;
-        var todayDate = today.getDate();
-        var todayHour = today.getHours();
-        var todayMinute = today.getMinutes();
-        var todaySecond = today.getSeconds();
-        var t1 = Date.UTC(2022, 06, 06, 12, 00, 00); // Mon Jun 06 12:00:00 CST 2022
-        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
-        var diff = t2 - t1;
-        var diffYears = Math.floor(diff / years);
-        var diffDays = Math.floor((diff / days) - diffYears * 365);
-        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
-        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
-        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-        document.getElementById("sitetime").innerHTML = diffYears + " y " + diffDays + " d " + diffHours + " h " + diffMinutes + " m " + diffSeconds + " s";
-    }
-    siteTime();
-</script>
-<script src="/js/prism.js" async></script>
-
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;Search</span>
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
             <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
                    class="search-input">
         </div>
@@ -989,16 +1046,102 @@ the dimension is, a vector can always be represented by an arrow. You don't need
     </div>
 </div>
 
-<script src="/js/search.js"></script>
 <script type="text/javascript">
 $(function () {
-    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
 });
 </script>
+
     <!-- 回到顶部按钮 -->
 <div id="backTop" class="top-scroll">
     <a class="btn-floating btn-large waves-effect waves-light" href="#!">
-        <i class="fa fa-angle-up"></i>
+        <i class="fas fa-arrow-up"></i>
     </a>
 </div>
 
@@ -1010,29 +1153,57 @@ $(function () {
     <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
 
-<!--     <script type="text/javascript"> var OriginTitile = document.title, st; document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "Σ(っ °Д °;)っ喔哟，崩溃啦！", clearTimeout(st)) : (document.title = "φ(゜▽゜*)♪咦，又好了！", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) -->
-<!--     </script> -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=查教程获取"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', '查教程获取');
-</script>
-
-
-
     
 
     
 
     <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
+    
+
+     
+        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+        <script src="/libs/others/TencentCaptcha.js"></script>
+        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+    
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
 </body>
