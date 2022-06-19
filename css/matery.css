@@ -834,6 +834,7 @@ header .go-back i {
 
 .recommend .post-card .post-categories {
     margin: 10px auto;
+    text-shadow: 2px 2px 3px #000000;
 }
 
 .recommend .post-card .post-categories .category {
@@ -851,6 +852,7 @@ header .go-back i {
     height: 48px;
     margin-top: 10px;
     margin-bottom: 5px;
+    text-shadow: 2px 2px 3px #000000;
 }
 
 .recommend .post-card .post-description {
@@ -860,6 +862,7 @@ header .go-back i {
     max-height: 65px;
     font-size: 1rem;
     color: hsla(0, 0%, 100%, .78) !important;
+    text-shadow: 2px 2px 3px #000000;
 }
 
 .recommend .post-card .read-more {
@@ -923,6 +926,7 @@ article .card {
 article .card-image {
     background-color: #222;
     border-radius: 8px;
+    text-shadow:2px 2px 3px #000000;
 }
 
 article .card-image img {
@@ -2338,4 +2342,13 @@ body.DarkMode .theme-btn:hover {
     font-family:'Font Awesome 5 Free';
     font-weight: 900;
     color: #d9534f;
+}
+
+
+/* comment policy page styles. */
+
+.comment-policy-container {
+    width: 90%;
+    max-width: 1225px;
+    /*margin-top: -60px;*/
 }
