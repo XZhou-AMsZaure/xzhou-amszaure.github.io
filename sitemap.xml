@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</loc>
+    
+    <lastmod>2022-06-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzhou-amszaure.github.io/2022/06/21/mit-linalg-lec2/</loc>
     
     <lastmod>2022-06-22</lastmod>
@@ -68,15 +77,6 @@
     <loc>https://xzhou-amszaure.github.io/comment-policy/index.html</loc>
     
     <lastmod>2022-06-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</loc>
-    
-    <lastmod>2022-06-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -151,7 +151,7 @@
   </url>
   
   <url>
-    <loc>https://xzhou-amszaure.github.io/tags/Class-notes/</loc>
+    <loc>https://xzhou-amszaure.github.io/tags/Mit-Linear-Algebra-Class-Notes/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
