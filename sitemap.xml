@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xzhou-amszaure.github.io/2022/06/23/mit-linalg-lec3/</loc>
+    
+    <lastmod>2022-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/</loc>
+    
+    <lastmod>2022-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xzhou-amszaure.github.io/2022/06/21/mit-linalg-lec2/</loc>
     
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -14,15 +32,6 @@
     <loc>https://xzhou-amszaure.github.io/2022/06/07/mit-linalg-lec1/</loc>
     
     <lastmod>2022-06-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/</loc>
-    
-    <lastmod>2022-06-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -130,7 +139,7 @@
 
   <url>
     <loc>https://xzhou-amszaure.github.io/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,49 +147,49 @@
   
   <url>
     <loc>https://xzhou-amszaure.github.io/tags/Skills/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xzhou-amszaure.github.io/tags/Latex/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xzhou-amszaure.github.io/tags/Mit-Linear-Algebra-18-06-Class-Notes/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xzhou-amszaure.github.io/tags/Linear-Algebra/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xzhou-amszaure.github.io/tags/Blog/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xzhou-amszaure.github.io/tags/Startup/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xzhou-amszaure.github.io/tags/Study/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -189,14 +198,14 @@
   
   <url>
     <loc>https://xzhou-amszaure.github.io/categories/Math/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xzhou-amszaure.github.io/categories/Thoughts/</loc>
-    <lastmod>2022-06-22</lastmod>
+    <lastmod>2022-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

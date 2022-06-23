@@ -43,9 +43,9 @@ body {
 
 h1 {
     margin: 48px 0 22px -5px;
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    line-height: 2.0rem;
+    line-height: 2.5rem;
 }
 
 h2 {
@@ -57,23 +57,23 @@ h2 {
 
 h3 {
     margin: 38px 0 15px -4px;
-    font-size: 1.6rem;
-    font-weight: bold;
-    line-height: 1.7rem;
-}
-
-h4 {
-    margin: 32px 0 12px -4px;
     font-size: 1.45rem;
     font-weight: bold;
     line-height: 1.45rem;
 }
 
-h5 {
-    margin: 28px 0 8px -4px;
+h4 {
+    margin: 32px 0 12px -4px;
     font-size: 1.2rem;
     font-weight: bold;
     line-height: 1.2rem;
+}
+
+h5 {
+    margin: 28px 0 8px -4px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.1rem;
 }
 
 h6 {

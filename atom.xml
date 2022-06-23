@@ -6,7 +6,7 @@
   <link href="https://xzhou-amszaure.github.io/atom.xml" rel="self"/>
   
   <link href="https://xzhou-amszaure.github.io/"/>
-  <updated>2022-06-22T14:47:47.940Z</updated>
+  <updated>2022-06-23T07:57:00.980Z</updated>
   <id>https://xzhou-amszaure.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Matrix Multiplication and Inverses</title>
+    <link href="https://xzhou-amszaure.github.io/2022/06/23/mit-linalg-lec3/"/>
+    <id>https://xzhou-amszaure.github.io/2022/06/23/mit-linalg-lec3/</id>
+    <published>2022-06-23T00:17:27.000Z</published>
+    <updated>2022-06-23T07:57:00.980Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;interpretations-of-matrix-multiplication&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#interpretations-of-matrix-multiplication&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Math" scheme="https://xzhou-amszaure.github.io/categories/Math/"/>
+    
+    
+    <category term="Mit Linear Algebra 18.06 Class Notes" scheme="https://xzhou-amszaure.github.io/tags/Mit-Linear-Algebra-18-06-Class-Notes/"/>
+    
+    <category term="Linear Algebra" scheme="https://xzhou-amszaure.github.io/tags/Linear-Algebra/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Elimination</title>
     <link href="https://xzhou-amszaure.github.io/2022/06/21/mit-linalg-lec2/"/>
     <id>https://xzhou-amszaure.github.io/2022/06/21/mit-linalg-lec2/</id>
     <published>2022-06-21T08:55:56.000Z</published>
-    <updated>2022-06-22T14:47:47.940Z</updated>
+    <updated>2022-06-23T02:10:27.049Z</updated>
     
     
       
@@ -49,7 +76,7 @@
     <link href="https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/"/>
     <id>https://xzhou-amszaure.github.io/2022/06/08/latex-formulas/</id>
     <published>2022-06-08T03:12:21.000Z</published>
-    <updated>2022-06-21T10:18:33.536Z</updated>
+    <updated>2022-06-23T02:12:26.555Z</updated>
     
     
       
@@ -57,7 +84,7 @@
         
         
     <summary type="html">&lt;h1 id=&quot;matrix&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#matrix&quot;&gt;&lt;/a&gt; Matrix&lt;/h1&gt;
-&lt;h5 id=&quot;different-kinds-of-matrices&quot;&gt;&lt;a</summary>
+&lt;h2 id=&quot;different-kinds-of-matrices&quot;&gt;&lt;a</summary>
         
       
     
