@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /js/
+Disallow: /medias/
+Disallow: /css/
+Disallow: /libs/
